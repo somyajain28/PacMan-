@@ -131,16 +131,16 @@ public class PacMan extends JPanel implements ActionListener, KeyListener{
 
 
         //load images
-        wallImage = new ImageIcon(getClass().getResource("./wall.png")).getImage();
-        orangeGhost = new ImageIcon(getClass().getResource("./orangeGhost.png")).getImage();
-        pinkGhost = new ImageIcon(getClass().getResource("./pinkGhost.png")).getImage();
-        redGhost = new ImageIcon(getClass().getResource("./redGhost.png")).getImage();
-        blueGhost = new ImageIcon(getClass().getResource("./blueGhost.png")).getImage();
+        wallImage = new ImageIcon(getClass().getResource("/wall.png")).getImage();
+        orangeGhost = new ImageIcon(getClass().getResource("/orangeGhost.png")).getImage();
+        pinkGhost = new ImageIcon(getClass().getResource("/pinkGhost.png")).getImage();
+        redGhost = new ImageIcon(getClass().getResource("/redGhost.png")).getImage();
+        blueGhost = new ImageIcon(getClass().getResource("/blueGhost.png")).getImage();
 
-        pacmanUpImage = new ImageIcon(getClass().getResource("./pacmanUp.png")).getImage();
-        pacmanDownImage = new ImageIcon(getClass().getResource("./pacmanDown.png")).getImage();
-        pacmanLeftImage = new ImageIcon(getClass().getResource("./pacmanLeft.png")).getImage();
-        pacmanRightImage = new ImageIcon(getClass().getResource("./pacmanRight.png")).getImage();
+        pacmanUpImage = new ImageIcon(getClass().getResource("/pacmanUp.png")).getImage();
+        pacmanDownImage = new ImageIcon(getClass().getResource("/pacmanDown.png")).getImage();
+        pacmanLeftImage = new ImageIcon(getClass().getResource("/pacmanLeft.png")).getImage();
+        pacmanRightImage = new ImageIcon(getClass().getResource("/pacmanRight.png")).getImage();
     
         loadMap();
         for(Block ghost : ghosts){

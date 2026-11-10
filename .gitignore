@@ -2,9 +2,19 @@
 # Compiled Java files
 *.class
 
-# VS Code settings
+# IDE files
+.idea/
 .vscode/
 
 # Build output
 bin/
 out/
+
+# Build folders
+build/
+out/
+target/
+dist/
+# OS files
+.DS_Store
+Thumbs.db
